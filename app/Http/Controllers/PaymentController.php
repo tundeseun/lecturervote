@@ -8,46 +8,7 @@ use Illuminate\Support\Str;
 
 class PaymentController extends Controller
 {
-    // public function createPayment(Request $request)
-    // {
-    //     $validator = Validator::make($request->all(), [
-    //         'staffName' => 'required|string',
-    //         'staffBankAccountNumber' => 'required|string',
-    //         'staffBankName' => 'required|string',
-    //         'staffPfNumber' => 'required|string',
-    //         'amount' => 'required|numeric',
-    //         'departmentName' => 'required|string',
-    //     ]);
-
-    //     if ($validator->fails()) {
-    //         return response()->json(['error' => $validator->errors()], 422);
-    //     }
-
-    //     $response = [
-    //         'PaymentRequestId' => uniqid('REQ-'),
-    //         'RequestDate' => now()->toDateTimeString(),
-    //         'StaffName' => $request->staffName,
-    //         'StaffCode' => $request->staffPfNumber,
-    //         'BeneficiaryName' => $request->staffName,
-    //         'RefNo' => uniqid('REF-'),
-    //         'Amount' => $request->amount,
-    //         'Description' => $request->input(''),
-    //         'SubUnitName' => $request->input('subUnitName', null),
-    //         'DepartmentName' => $request->departmentName,
-    //         'RequestTypeName' => '',
-    //         'AccountPoint' => 'PGS',
-    //     ];
-
-    //     return response()->json($response, 201);
-    // }
-
-
-
-
-
-
-
-
+    
     // protected $payments = []; // Temporary in-memory storage. Replace with a database in production.
 
     //     public function storePayment(Request $request)
